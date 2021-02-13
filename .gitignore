@@ -1,5 +1,5 @@
-Assets/
 Library/
 Logs/
-packages/
 Temp/
+obj/
+.vs/
