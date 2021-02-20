@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\changescene.cs" />
      <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
