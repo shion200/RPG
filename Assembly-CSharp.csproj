@@ -36,6 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Attack.cs" />
+     <Compile Include="Assets\Scripts\UnityChanControlScriptWithRgidBody.cs" />
      <Compile Include="Assets\Scripts\changescene.cs" />
      <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
@@ -47,7 +49,6 @@
      <Compile Include="Assets\UnityChan\Scripts\SpringCollider.cs" />
      <Compile Include="Assets\UnityChan\Scripts\SpringManager.cs" />
      <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
-     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
      <Compile Include="Assets\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
