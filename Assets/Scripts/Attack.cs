@@ -21,7 +21,8 @@ public class Attack : MonoBehaviour
     {
         Move,
         Attack,
-        Damage
+        Damage,
+        Kick
     }
 
     //列挙型の名前を型にして変数を宣言する
@@ -29,6 +30,7 @@ public class Attack : MonoBehaviour
 
     //攻撃判定のオブジェクトを入れる
     [SerializeField]GameObject attackObj;
+    [SerializeField]GameObject kickObj;
 
     void Start()
     {
@@ -46,6 +48,7 @@ public class Attack : MonoBehaviour
 
         //攻撃判定のオブジェクトをしまっておく
         attackObj.SetActive(false);
+        kickObj.SetActive(false);
     }
 
     void Update()
@@ -85,7 +88,24 @@ public class Attack : MonoBehaviour
             animator.SetBool("Attack", true);
             //攻撃判定のオブジェクトを出す
             attackObj.SetActive(true);
-        }
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                action = Action.Kick;
+            }
+
+            if (action == Action.Kick)
+            {
+                animator.SetBool("Kick", true);
+                kickObj.SetActive(true);
+            }
+            else if(action == Action.Damage)
+            {
+                animator.SetBool("Damage", true);
+            }
+
+               
+        } 
         //Action.Damageの時だけダメージのアニメーションを出す
         else if (action == Action.Damage)
         {
@@ -122,9 +142,19 @@ public class Attack : MonoBehaviour
     //攻撃判定のオブジェクトをしまう
     void AttackEndAnim()
     {
-        action = Action.Move;
-        animator.SetBool("Attack", false);
-        attackObj.SetActive(false);
+        if (action == Action.Kick)
+        {
+            action = Action.Move;
+            animator.SetBool("Attack", false);
+            animator.SetBool("Kick", false);
+            attackObj.SetActive(false);
+        }
+        else
+        {
+            action = Action.Move;
+            animator.SetBool("Attack", false);
+            attackObj.SetActive(false);
+        }
     }
 
     //DAMAGED00のアニメーションイベントで呼ばれる

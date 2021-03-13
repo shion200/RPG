@@ -51,6 +51,7 @@ namespace UnityChan
 		static int jumpState = Animator.StringToHash ("Base Layer.Jump");
 		static int restState = Animator.StringToHash ("Base Layer.Rest");
 		static int attackState = Animator.StringToHash ("Base Layer.Attack");
+		static int kickState = Animator.StringToHash ("Base Layer.Kick");
 
 		// 初期化
 		void Start ()
@@ -112,6 +113,18 @@ namespace UnityChan
 					if (!anim.IsInTransition (0)) {
 						rb.AddForce (Vector3.up * jumpPower, ForceMode.VelocityChange);
 						anim.SetBool ("Attack", true);		// Animatorにジャンプに切り替えるフラグを送る
+					}
+				}
+			}
+
+			if (Input.GetMouseButtonDown(0)) {	// スペースキーを入力したら
+
+				//アニメーションのステートがLocomotionの最中のみジャンプできる
+				if (currentBaseState.nameHash == attackState) {
+					//ステート遷移中でなかったらジャンプできる
+					if (!anim.IsInTransition (0)) {
+						rb.AddForce (Vector3.up * jumpPower, ForceMode.VelocityChange);
+						anim.SetBool ("Kick", true);		// Animatorにジャンプに切り替えるフラグを送る
 					}
 				}
 			}
