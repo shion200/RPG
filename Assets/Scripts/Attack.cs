@@ -134,7 +134,7 @@ public class Attack : MonoBehaviour
     //Invokeで指定した秒数の後にAttackEndAnimが呼ばれる
     public void AttackEnd()
     {
-        Invoke("AttackEndAnim", 0.5f);
+        Invoke("AttackEndAnim", 0.7f);
     }
 
     //Action.Moveに戻す
