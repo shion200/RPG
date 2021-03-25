@@ -22,5 +22,13 @@ public class changescene : MonoBehaviour
                 SceneManager.LoadScene("interier");
             }
         }
+
+        // if (C.transform.position.x <= -27 && C.transform.position.x >= -30)
+        // {
+        //     if (C.transform.position.z <= -0.5 && C.transform.position.z >= -1.5)
+        //     {
+        //         SceneManager.LoadScene("")
+        //     }
+        // }
     }
 }
