@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class changescene : MonoBehaviour
 {
+    public GameObject C;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,9 +15,12 @@ public class changescene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if (Input.GetMouseButtonDown (0)) 
-        // {
-		// 	SceneManager.LoadScene ("next");
-		// }	
+        if (C.transform.position.x <= 1.5 && C.transform.position.x >= -1.5)
+        {
+            if (C.transform.position.z <= -0.5 && C.transform.position.z >= -1.5)
+            {
+                SceneManager.LoadScene("interier");
+            }
+        }
     }
 }

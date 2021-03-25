@@ -225,7 +225,6 @@ GameObject:
   - component: {fileID: 68097463}
   - component: {fileID: 68097462}
   - component: {fileID: 68097461}
-  - component: {fileID: 68097460}
   - component: {fileID: 68097459}
   m_Layer: 0
   m_Name: house1.3 (3)
@@ -247,18 +246,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &68097460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68097458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &68097461
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -388,7 +375,6 @@ GameObject:
   - component: {fileID: 139772573}
   - component: {fileID: 139772572}
   - component: {fileID: 139772571}
-  - component: {fileID: 139772570}
   - component: {fileID: 139772569}
   m_Layer: 0
   m_Name: house1.2
@@ -410,18 +396,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &139772570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139772568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &139772571
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -477,7 +451,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139772568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5, y: 2, z: 0}
+  m_LocalPosition: {x: -1.4, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1330,7 +1304,6 @@ GameObject:
   - component: {fileID: 490747279}
   - component: {fileID: 490747278}
   - component: {fileID: 490747277}
-  - component: {fileID: 490747276}
   - component: {fileID: 490747275}
   m_Layer: 0
   m_Name: house1.2 (1)
@@ -1352,18 +1325,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &490747276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 490747274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &490747277
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1529,7 +1490,6 @@ GameObject:
   - component: {fileID: 526514375}
   - component: {fileID: 526514374}
   - component: {fileID: 526514373}
-  - component: {fileID: 526514372}
   - component: {fileID: 526514371}
   m_Layer: 0
   m_Name: house1.4
@@ -1551,18 +1511,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &526514372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526514370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &526514373
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1728,7 +1676,6 @@ GameObject:
   - component: {fileID: 594248638}
   - component: {fileID: 594248637}
   - component: {fileID: 594248636}
-  - component: {fileID: 594248635}
   - component: {fileID: 594248634}
   m_Layer: 0
   m_Name: house1.2 (3)
@@ -1750,18 +1697,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &594248635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594248633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &594248636
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2298,7 +2233,6 @@ GameObject:
   - component: {fileID: 782551952}
   - component: {fileID: 782551951}
   - component: {fileID: 782551950}
-  - component: {fileID: 782551949}
   - component: {fileID: 782551948}
   m_Layer: 0
   m_Name: house1.3 (4)
@@ -2320,18 +2254,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &782551949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782551947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &782551950
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2497,7 +2419,6 @@ GameObject:
   - component: {fileID: 822583870}
   - component: {fileID: 822583869}
   - component: {fileID: 822583868}
-  - component: {fileID: 822583867}
   - component: {fileID: 822583866}
   m_Layer: 0
   m_Name: house1.2 (4)
@@ -2519,18 +2440,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &822583867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 822583865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &822583868
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2696,7 +2605,6 @@ GameObject:
   - component: {fileID: 884030436}
   - component: {fileID: 884030435}
   - component: {fileID: 884030434}
-  - component: {fileID: 884030433}
   - component: {fileID: 884030432}
   m_Layer: 0
   m_Name: door1
@@ -2718,18 +2626,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &884030433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 884030431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &884030434
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2802,7 +2698,6 @@ GameObject:
   - component: {fileID: 884741014}
   - component: {fileID: 884741013}
   - component: {fileID: 884741012}
-  - component: {fileID: 884741011}
   - component: {fileID: 884741010}
   m_Layer: 0
   m_Name: house1.4 (3)
@@ -2824,18 +2719,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &884741011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 884741009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &884741012
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3231,7 +3114,6 @@ GameObject:
   - component: {fileID: 921282526}
   - component: {fileID: 921282525}
   - component: {fileID: 921282524}
-  - component: {fileID: 921282523}
   - component: {fileID: 921282522}
   m_Layer: 0
   m_Name: house1.2 (2)
@@ -3253,18 +3135,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &921282523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921282521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &921282524
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3337,7 +3207,6 @@ GameObject:
   - component: {fileID: 927457196}
   - component: {fileID: 927457195}
   - component: {fileID: 927457194}
-  - component: {fileID: 927457193}
   - component: {fileID: 927457192}
   m_Layer: 0
   m_Name: house1.4 (6)
@@ -3359,18 +3228,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &927457193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927457191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &927457194
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3443,7 +3300,6 @@ GameObject:
   - component: {fileID: 935392394}
   - component: {fileID: 935392393}
   - component: {fileID: 935392392}
-  - component: {fileID: 935392391}
   - component: {fileID: 935392390}
   m_Layer: 0
   m_Name: house1.3 (1)
@@ -3465,18 +3321,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &935392391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935392389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &935392392
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3632,7 +3476,6 @@ GameObject:
   - component: {fileID: 1017518050}
   - component: {fileID: 1017518049}
   - component: {fileID: 1017518048}
-  - component: {fileID: 1017518047}
   - component: {fileID: 1017518046}
   m_Layer: 0
   m_Name: house1.2 (5)
@@ -3654,18 +3497,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1017518047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017518045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1017518048
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3831,7 +3662,6 @@ GameObject:
   - component: {fileID: 1073953685}
   - component: {fileID: 1073953684}
   - component: {fileID: 1073953683}
-  - component: {fileID: 1073953682}
   - component: {fileID: 1073953681}
   m_Layer: 0
   m_Name: house1.1 (6)
@@ -3853,18 +3683,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1073953682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1073953680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1073953683
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3937,7 +3755,6 @@ GameObject:
   - component: {fileID: 1121808535}
   - component: {fileID: 1121808534}
   - component: {fileID: 1121808533}
-  - component: {fileID: 1121808532}
   - component: {fileID: 1121808531}
   m_Layer: 0
   m_Name: house1.1 (5)
@@ -3959,18 +3776,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1121808532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1121808530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1121808533
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4043,7 +3848,6 @@ GameObject:
   - component: {fileID: 1122803925}
   - component: {fileID: 1122803924}
   - component: {fileID: 1122803923}
-  - component: {fileID: 1122803922}
   - component: {fileID: 1122803921}
   m_Layer: 0
   m_Name: house1.4 (1)
@@ -4065,18 +3869,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1122803922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122803920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1122803923
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4336,7 +4128,6 @@ GameObject:
   - component: {fileID: 1283641780}
   - component: {fileID: 1283641779}
   - component: {fileID: 1283641778}
-  - component: {fileID: 1283641777}
   - component: {fileID: 1283641776}
   m_Layer: 0
   m_Name: door2
@@ -4358,18 +4149,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1283641777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1283641775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1283641778
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4442,7 +4221,6 @@ GameObject:
   - component: {fileID: 1297427966}
   - component: {fileID: 1297427965}
   - component: {fileID: 1297427964}
-  - component: {fileID: 1297427963}
   - component: {fileID: 1297427962}
   m_Layer: 0
   m_Name: house1.3 (2)
@@ -4464,18 +4242,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1297427963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297427961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1297427964
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7799,6 +7565,7 @@ GameObject:
   - component: {fileID: 1481863255}
   - component: {fileID: 1487726273}
   - component: {fileID: 1487726119}
+  - component: {fileID: 1476432766}
   - component: {fileID: 1487726117}
   m_Layer: 0
   m_Name: unitychan_dynamic_locomotion
@@ -7839,6 +7606,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1476432766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476432763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  C: {fileID: 1476432763}
 --- !u!1 &1476432767
 GameObject:
   m_ObjectHideFlags: 0
@@ -10254,7 +10034,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476432763}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 1.6, y: 0, z: -9.7}
+  m_LocalPosition: {x: 3, y: 0, z: -9.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1476857617}
@@ -13628,7 +13408,6 @@ GameObject:
   - component: {fileID: 1503009726}
   - component: {fileID: 1503009725}
   - component: {fileID: 1503009724}
-  - component: {fileID: 1503009723}
   - component: {fileID: 1503009722}
   m_Layer: 0
   m_Name: house1.2 (6)
@@ -13650,18 +13429,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1503009723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503009721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1503009724
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13846,7 +13613,6 @@ GameObject:
   - component: {fileID: 1542977426}
   - component: {fileID: 1542977425}
   - component: {fileID: 1542977424}
-  - component: {fileID: 1542977423}
   - component: {fileID: 1542977422}
   m_Layer: 0
   m_Name: house1.4 (2)
@@ -13868,18 +13634,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1542977423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1542977421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1542977424
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13952,7 +13706,6 @@ GameObject:
   - component: {fileID: 1580863516}
   - component: {fileID: 1580863515}
   - component: {fileID: 1580863514}
-  - component: {fileID: 1580863513}
   - component: {fileID: 1580863512}
   m_Layer: 0
   m_Name: house1.1 (1)
@@ -13974,18 +13727,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1580863513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580863511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1580863514
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14151,7 +13892,6 @@ GameObject:
   - component: {fileID: 1601149672}
   - component: {fileID: 1601149671}
   - component: {fileID: 1601149670}
-  - component: {fileID: 1601149669}
   - component: {fileID: 1601149668}
   m_Layer: 0
   m_Name: house1.3 (5)
@@ -14173,18 +13913,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1601149669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601149667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1601149670
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14487,7 +14215,6 @@ GameObject:
   - component: {fileID: 1737098445}
   - component: {fileID: 1737098444}
   - component: {fileID: 1737098443}
-  - component: {fileID: 1737098442}
   - component: {fileID: 1737098441}
   m_Layer: 0
   m_Name: house1.3
@@ -14509,18 +14236,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1737098442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737098440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1737098443
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14593,7 +14308,6 @@ GameObject:
   - component: {fileID: 1742240112}
   - component: {fileID: 1742240111}
   - component: {fileID: 1742240110}
-  - component: {fileID: 1742240109}
   - component: {fileID: 1742240108}
   m_Layer: 0
   m_Name: house1.4 (4)
@@ -14615,18 +14329,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1742240109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742240107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1742240110
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14885,7 +14587,6 @@ GameObject:
   - component: {fileID: 1762867527}
   - component: {fileID: 1762867526}
   - component: {fileID: 1762867525}
-  - component: {fileID: 1762867524}
   - component: {fileID: 1762867523}
   m_Layer: 0
   m_Name: door3
@@ -14907,18 +14608,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1762867524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762867522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1762867525
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14991,7 +14680,6 @@ GameObject:
   - component: {fileID: 1788977421}
   - component: {fileID: 1788977420}
   - component: {fileID: 1788977419}
-  - component: {fileID: 1788977418}
   - component: {fileID: 1788977417}
   m_Layer: 0
   m_Name: house1.1 (3)
@@ -15013,18 +14701,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1788977418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788977416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1788977419
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15283,7 +14959,6 @@ GameObject:
   - component: {fileID: 1919811618}
   - component: {fileID: 1919811617}
   - component: {fileID: 1919811616}
-  - component: {fileID: 1919811615}
   - component: {fileID: 1919811614}
   m_Layer: 0
   m_Name: house1.1 (2)
@@ -15305,18 +14980,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1919811615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919811613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1919811616
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15668,7 +15331,6 @@ GameObject:
   - component: {fileID: 1961859101}
   - component: {fileID: 1961859100}
   - component: {fileID: 1961859099}
-  - component: {fileID: 1961859098}
   - component: {fileID: 1961859097}
   m_Layer: 0
   m_Name: house1.1 (4)
@@ -15690,18 +15352,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1961859098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1961859096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1961859099
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16053,7 +15703,6 @@ GameObject:
   - component: {fileID: 2091746457}
   - component: {fileID: 2091746456}
   - component: {fileID: 2091746455}
-  - component: {fileID: 2091746454}
   - component: {fileID: 2091746453}
   m_Layer: 0
   m_Name: house1.4 (5)
@@ -16075,18 +15724,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2091746454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2091746452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &2091746455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16216,7 +15853,6 @@ GameObject:
   - component: {fileID: 2130395643}
   - component: {fileID: 2130395642}
   - component: {fileID: 2130395641}
-  - component: {fileID: 2130395640}
   - component: {fileID: 2130395639}
   m_Layer: 0
   m_Name: house1.3 (6)
@@ -16238,18 +15874,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2130395640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130395638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afcd9a19d69cee44bd86ea53f49c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &2130395641
 MeshRenderer:
   m_ObjectHideFlags: 0
