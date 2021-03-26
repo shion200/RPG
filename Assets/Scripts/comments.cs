@@ -15,7 +15,7 @@ public class comments : MonoBehaviour {
 
     void Update(){
         float A = Vector3.Distance(other.position ,transform.position);
-        Debug.Log(A);
+        // Debug.Log(A);
         if(One)
         {
             GameObject bullet = Instantiate(image, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
