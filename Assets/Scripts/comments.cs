@@ -24,23 +24,20 @@ public class comments : MonoBehaviour {
         }
         if (Input.GetMouseButtonDown(1))
         {
-            if(A<=2)
+            GameObject bullet = GameObject.Find("MessageUI");
+            if(bullet == null)
             {
-                GameObject bullet = GameObject.Find("MessageUI");
-                if (bullet == null)
+                // Debug.Log("true");
+                if(A<=2)
                 {
-                    // Debug.Log("true");
                     One = true;
                 }
-                else
-                {
-                    // Debug.Log("false");
-                    Destroy(bullet);
-                }
-                
+            }
+            else
+            {
+                // Debug.Log("false");
+                Destroy(bullet);
             }
         }
-        
-
     }
 }
