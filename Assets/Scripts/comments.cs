@@ -18,16 +18,29 @@ public class comments : MonoBehaviour {
         // Debug.Log(A);
         if(One)
         {
-            GameObject bullet = Instantiate(image, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
+            var obj = Instantiate(image, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
+            obj.name = image.name;
             One = false;
         }
         if (Input.GetMouseButtonDown(1))
         {
             if(A<=2)
             {
-                One = true;
+                GameObject bullet = GameObject.Find("MessageUI");
+                if (bullet == null)
+                {
+                    // Debug.Log("true");
+                    One = true;
+                }
+                else
+                {
+                    // Debug.Log("false");
+                    Destroy(bullet);
+                }
+                
             }
         }
+        
 
     }
 }
