@@ -23,12 +23,44 @@ public class changescene : MonoBehaviour
             }
         }
 
-        // if (C.transform.position.x <= -27 && C.transform.position.x >= -30)
-        // {
-        //     if (C.transform.position.z <= -0.5 && C.transform.position.z >= -1.5)
-        //     {
-        //         SceneManager.LoadScene("")
-        //     }
-        // }
+        if (C.transform.position.x <= -27 && C.transform.position.x >= -30)
+        {
+            if (C.transform.position.z <= -0.5 && C.transform.position.z >= -1.5)
+            {
+                SceneManager.LoadScene("interier1");
+            }
+        }
+        
+        if (C.transform.position.x <= 24 && C.transform.position.x >= 21)
+        {
+            if (C.transform.position.z <= -0.5 && C.transform.position.z >= -1.5)
+            {
+                SceneManager.LoadScene("interier2");
+            }
+        }
+
+        if (C.transform.position.x <= -9  && C.transform.position.x >= -12)
+        {
+            if (C.transform.position.z <= -30.5 && C.transform.position.z >= -31.5)
+            {
+                SceneManager.LoadScene("interier3");
+            }
+        }
+
+        if (C.transform.position.x <=15.5  && C.transform.position.x >= 12.5)
+        {
+            if (C.transform.position.z <= 30.5 && C.transform.position.z >= 29.5)
+            {
+                SceneManager.LoadScene("interier4");
+            }
+        }
+
+        if (C.transform.position.x <=-9  && C.transform.position.x >= -12)
+        {
+            if (C.transform.position.z <= 30.5 && C.transform.position.z >= 29.5)
+            {
+                SceneManager.LoadScene("interier5");
+            }
+        }
     }
 }
