@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/interier1.unity
     guid: 62c92e35adc339d4c9c3903cc157e5b0
+  - enabled: 1
+    path: Assets/Scenes/interier6.unity
+    guid: 69ce656265765704cbcaf54b52005971
   m_configObjects: {}

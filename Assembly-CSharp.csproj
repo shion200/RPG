@@ -41,6 +41,7 @@
      <Compile Include="Assets\Scripts\changescene.cs" />
      <Compile Include="Assets\Scripts\comments.cs" />
      <Compile Include="Assets\Scripts\door.cs" />
+     <Compile Include="Assets\Scripts\keep.cs" />
      <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
