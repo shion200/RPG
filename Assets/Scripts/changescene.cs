@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class changescene : MonoBehaviour
 {
     public GameObject C;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -60,6 +59,14 @@ public class changescene : MonoBehaviour
             if (C.transform.position.z <= 30.5 && C.transform.position.z >= 29.5)
             {
                 SceneManager.LoadScene("interier5");
+            }
+        }
+
+        if (C.transform.position.x <=15.5  && C.transform.position.x >= 12.5)
+        {
+            if (C.transform.position.z <= -30.5 && C.transform.position.z >= -31.5)
+            {
+                SceneManager.LoadScene("interier6");
             }
         }
     }
